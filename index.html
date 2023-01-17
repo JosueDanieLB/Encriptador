@@ -14,15 +14,14 @@
         <img src="/images/Logo.svg" alt="Alura Logo" class="logo-alura">
     </header>
     <main>
-        <h2 class="bienvenida">Ingrese el texto aquí</h2>
+        <!-- <h2 class="bienvenida">Ingrese el texto aquí</h2> -->
+        <textarea name="ingresar" class="bienvenida" cols="30" rows="10">Ingrese el texto aquí</textarea>
 
-        <aside>
-            <div class="columna-derecha">
+        <section class="columna-derecha">
                 <img src="/images/Looking.svg" alt="Buscando" class="buscando">
                 <h3 class="mensaje-buscar">Ningún mensaje fue encontrado</h3>
                 <p class="mensaje-texto">Ingresa el texto que desees encriptar o desencriptar.</p>
-            </div>
-        </aside>
+        </section>
 
         <div class="info">
             <img src="/images/Info.svg" alt="Información">
@@ -30,13 +29,13 @@
         </div>
 
         <section class="botones">
-            <div class="encriptar">
-                <p class="encriptar-texto">Encriptar</p>
-            </div>
-    
-            <div class="desencriptar">
-                <p class="desencriptar-texto">Desencriptar</p>
-            </div>
+            <button type="submit" class="encriptar" name="encriptar">
+                <span class="encriptar-texto">Encriptar</span>
+            </button>
+
+            <button type="submit" class="desencriptar" name="desencriptar">
+                <span class="desencriptar-texto">Desencriptar</span>
+            </button>
         </section>
         
     </main>

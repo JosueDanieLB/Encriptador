@@ -34,6 +34,8 @@ body{
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
+    background: none;
+    border: none;
 
     /* identical to box height, or 48px */
 
@@ -43,6 +45,9 @@ body{
 
 .columna-derecha{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 400px;
     height: 944px;
     left: 1000px;
@@ -57,14 +62,18 @@ body{
 }
 
 .buscando{
-    position: absolute;
-    width: 336px;
-    height: 304px;
+    /* position: absolute; */
+    margin: 0 auto;
     left: 1032px;
     top: 283px;
+    width: 336px;
+    height: 304px;
 }
 
 .mensaje-buscar{
+    margin: 0 auto;
+    margin-bottom: 8px;
+    margin-top: 32px;
     width: 336px;
     height: 58px;
 
@@ -89,6 +98,8 @@ body{
 }
 
 .mensaje-texto{
+    margin: 0 auto;
+    margin-top: 8px;
     width: 336px;
     height: 48px;
 
