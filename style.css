@@ -2,6 +2,8 @@ body{
     position: relative;
     width: 1440px;
     height: 1024px;
+    max-width: 1440px;
+    margin: auto;
     
     /* Light blue/light-blue-100 */
     background: #F3F5FC;
