@@ -63,6 +63,88 @@ body{
     border-radius: 32px;
 }
 
+.resultado{
+    position: absolute;
+    display: flex;
+    /* display: none; */
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+
+    /* White */
+    background: #FFFFFF;
+
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.codigo{
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    left:8%;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    border: none;
+
+    /* or 36px */
+
+    /* Gray/gray-400 */
+    color: #495057;
+}
+
+.copiar-resultado{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 8%;
+    top: 90%;
+
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: none;
+}
+
+.copiar-texto{
+    width: 288px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
 .buscando{
     /* position: absolute; */
     margin: 0 auto;
@@ -317,6 +399,103 @@ body{
         /* shadow */
         box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
         border-radius: 32px;
+    }
+
+    .resultado{
+        display: flex;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2.61%;
+        gap: 4.16%;
+        
+        position: absolute;
+        width: 84.38%;
+        height: 25.98%;
+        left: 5.2%;
+        top: 75.77%;
+        
+        /* White */
+        background: #FFFFFF;
+        
+        /* shadow */
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+
+    .codigo{
+        width: 624px;
+        height: 180px;
+
+        position: absolute;
+        width: 80%;
+        height: 25.98%;
+        left: 10%;
+        top: 5%;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+
+        /* or 36px */
+
+        /* Gray/gray-400 */
+        color: #495057;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .copiar-resultado{
+        box-sizing: border-box;
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+
+        width: 90%;
+        height: 67px;
+        top:70%;
+        left:5%;
+
+        /* Dark blue/dark-blue-300 */
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    
+    .copiar-texto{
+        width: 288px;
+        height: 19px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    
+        /* Dark blue/dark-blue-300 */
+        color: #0A3871;
+    
+    
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 1;
     }
     
     .buscando{
@@ -573,6 +752,104 @@ body{
         box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
         border-radius: 32px;
     }
+
+    .resultado{
+        display: flex;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2.61%;
+        gap: 4.16%;
+        
+        position: absolute;
+        width: 84.38%;
+        height: 60%;
+        left: 5.2%;
+        top: 75.77%;
+        
+        /* White */
+        background: #FFFFFF;
+        
+        /* shadow */
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+
+    .codigo{
+        width: 624px;
+        height: 180px;
+
+        position: absolute;
+        width: 80%;
+        height: 70%;
+        left: 10%;
+        top: 5%;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+
+        /* or 36px */
+
+        /* Gray/gray-400 */
+        color: #495057;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .copiar-resultado{
+        box-sizing: border-box;
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+
+        width: 90%;
+        height: 67px;
+        top:80%;
+        left:5%;
+
+        /* Dark blue/dark-blue-300 */
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    
+    .copiar-texto{
+        width: 288px;
+        height: 19px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    
+        /* Dark blue/dark-blue-300 */
+        color: #0A3871;
+    
+    
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
     
     .buscando{
         display: none;

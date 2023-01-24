@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Encriptador</title>
@@ -23,17 +22,24 @@
                 <p class="mensaje-texto">Ingresa el texto que desees encriptar o desencriptar.</p>
         </section>
 
+        <section class="resultado">
+            <textarea name="resultado" class="codigo" cols="20" rows="10"></textarea>
+            <button type="submit" class="copiar-resultado" name="copiar">
+                <span class="copiar-texto">Copiar</span>
+            </button>
+        </section>
+
         <div class="info">
             <img src="/images/Info.svg" alt="Información">
             <p class="regla">Solo letras minúsculas y sin acentos</p>
         </div>
 
         <section class="botones">
-            <button type="submit" class="encriptar" name="encriptar">
+            <button type="submit" class="encriptar" name="encriptar" onclick="botonEncriptar()">
                 <span class="encriptar-texto">Encriptar</span>
             </button>
 
-            <button type="submit" class="desencriptar" name="desencriptar">
+            <button type="submit" class="desencriptar" name="desencriptar" onclick="botonDesencriptar()">
                 <span class="desencriptar-texto">Desencriptar</span>
             </button>
         </section>
@@ -42,5 +48,6 @@
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
