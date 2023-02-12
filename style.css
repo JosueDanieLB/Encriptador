@@ -338,6 +338,14 @@ body{
     flex-grow: 1;
 }
 
+.firma{
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    margin: 0px;
+    font-size: 10px;
+}
+
 @media (max-width: 768px) {
     
     body{
@@ -686,6 +694,14 @@ body{
         flex: none;
         order: 0;
         flex-grow: 1;
+    }
+
+    .firma{
+        position: absolute;
+        top: 0%;
+        left: 80%;
+        margin: 0px;
+        font-size: 8px;
     }
 
 }
