@@ -27,7 +27,7 @@ body{
 .bienvenida{
     position: absolute;
     width: 577px;
-    height: 48px;
+    height: 150px;
     left: 240px;
     top: 168px;
 
@@ -66,7 +66,7 @@ body{
 .resultado{
     position: absolute;
     display: flex;
-    /* display: none; */
+    display: none;
     justify-content: center;
     flex-direction: column;
     width: 400px;
@@ -361,7 +361,7 @@ body{
     .bienvenida{
         position: absolute;
         width: 89.58%;
-        height: 4.68%;
+        height: 12.68%;
         left: 5.2%;
         top: 23.43%;
 
@@ -713,7 +713,7 @@ body{
     .bienvenida{
         position: absolute;
         width: 91.46%;
-        height: 5.14%;
+        height: 15.14%;
         left: 4.26%;
         top: 16.29%;
 

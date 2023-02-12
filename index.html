@@ -14,7 +14,7 @@
         <img src="/images/Logo.svg" alt="Alura Logo" class="logo-alura">
     </header>
     <main>
-        <textarea name="ingresar" class="bienvenida" cols="30" rows="10">Ingrese el texto aquí</textarea>
+        <textarea name="ingresar" class="bienvenida" cols="30" rows="10"" placeholder="Ingrese el texto aquí" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingrese el texto aquí'"></textarea>
 
         <section class="columna-derecha">
                 <img src="/images/Looking.svg" alt="Buscando" class="buscando">
@@ -24,7 +24,7 @@
 
         <section class="resultado">
             <textarea name="resultado" class="codigo" cols="20" rows="10"></textarea>
-            <button type="submit" class="copiar-resultado" name="copiar">
+            <button type="submit" class="copiar-resultado" name="copiar" onclick="copiar()">
                 <span class="copiar-texto">Copiar</span>
             </button>
         </section>
